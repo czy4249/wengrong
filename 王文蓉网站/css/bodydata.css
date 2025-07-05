@@ -1,0 +1,88 @@
+@charset "utf-8";
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("../image/bg.jpg");
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
+    
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.3); /* 设置透明度 */
+  pointer-events: none; /* 确保覆盖层不会影响其他内容的交互 */
+}
+
+
+
+.foot{
+    margin-top: 0px;
+    width: 100vw;
+    height: 100px;
+    float: left;
+    clear: both;
+    text-align: center;
+    margin-bottom: 0px;
+    background-color: rgba(84, 132, 161, 0.8);
+}
+.foot p{
+    line-height: 10px;
+    color: rgb(28, 43, 43);
+}
+.scroll-content .item0 {
+    display: inline-block;
+    width: 300px;
+    height: 50px;
+    background: #ccc;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 50px;
+}
+.scroll-content .item {
+  display: inline-block;
+  width: 300px;
+  height: 50px;
+  background: #ccc;
+  margin-right: 10px;
+  text-align: center;
+  line-height: 50px;
+}
+.scroll-content .a {
+  display: inline-block;
+  width: 300px;
+  height: 50px;
+  background: #ccc;
+  margin-right: 10px;
+  text-align: center;
+  line-height: 50px;
+}
+.cs{
+  padding-left: 50px;
+  width: 30%;
+}
+.cs strong{
+  font-size: 50px;
+  font-weight: bolder;
+}
+/*.background-container {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.background-image {
+  width: 100%;
+  height: 100%;
+  background-image: url('../image/bg.jpg');
+  background-size: 150%;
+  background-position: center;
+  transition: background-position 0.3s ease;
+}*/

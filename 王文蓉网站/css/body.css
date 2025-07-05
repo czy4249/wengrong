@@ -1,0 +1,29 @@
+@charset "utf-8";
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("../image/bg1.jpg");
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
+}
+
+
+.foot{
+    margin-top: 0px;
+    width: 100vw;
+    height: 100px;
+    float: left;
+    clear: both;
+    text-align: center;
+    margin-bottom: 0px;
+    background-color: rgba(84, 132, 161, 0.8);
+}
+.foot p{
+    line-height: 10px;
+    color: rgb(28, 43, 43);
+}
+
+

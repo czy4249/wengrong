@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>data</title>
+    <link rel="stylesheet" href="../css/about1.css">
+    <link rel="stylesheet" href="../css/nav real.css">
+    <link rel="stylesheet" href="../css/bodydata.css">
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/file.css">
+</head>
+<body>
+    <div class="overlay"></div>
+    <nav class="homenav">
+        <div class="scroll-container">
+          
+          <div class="scroll-content">
+              <!-- 在这里添加需要水平滚动的内容 -->
+               
+                  <div class="navtitle"><strong>CZY</strong>|MY PROFILE
+                      <strong style="padding-left: 50%;
+                      font-size: 50px;
+                      font-family:KaiTi;
+                      color:rgb(18, 81, 218);">展翼</strong>
+                      <strong style="
+                      font-size: 50px;
+                      font-family:KaiTi;">任游，</strong>
+                      <strong style="
+                      color:rgb(218, 18, 128);
+                      font-size: 50px;
+                      font-family:KaiTi;">闻蓉</strong>
+                      <strong style="
+                      font-size: 50px;
+                      font-family:KaiTi;">独秀</strong>
+                      <strong style="padding-left: 65%;">c love r</strong></div>
+                  <a href="home real.html" style="padding-left:80px;">HOME</a>
+                  <a href="about.html">ABOUT</a>
+                  <a href="data.html">DATA</a>
+                  <a href="album.html">ALBUM</a>
+                  <a href="bold.html">BOLD</a>
+                  <div class="navanim blog"></div>
+                  <div class="none" ></div>
+              
+              <!-- 更多内容 -->
+          </div>
+        
+        </div> 
+      </nav>
+      <!--<div class="background-container">
+        <div class="background-image" id="bg-image"></div>
+    </div>-->
+    <label class="upload-btn" style="position: relative; 
+            top: 100px; ">
+        选择多个图片文件
+        <input type="file" id="fileInput" accept="image/*" multiple style="padding-top: 100px;">
+    </label>
+    <div id="imageContainer" class="image-container" style="padding-top: 100px;"></div>
+    <img id="imageModal" src="../image/bg.jpg" alt="示例图片" width="300">
+  <div id="enlarged-image-container">
+    <img id="expandedImg" src="../image/bg.jpg" alt="放大后的示例图片">
+    <span id="close-button">&times;</span>
+  </div>
+    <!-- 保持原有模态框结构 -->
+    <div class="modal" id="imageModal">
+        <span class="close-btn">&times;</span>
+        <div class="modal-content">
+            <img class="modal-image" id="expandedImg">
+        </div>
+    </div>
+    <script>"../js/data.js"</script>
+    <script src="../js/larger.js"></script>
+    <script src="../js/file copy.js"></script>
+</body>

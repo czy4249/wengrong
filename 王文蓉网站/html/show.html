@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show</title>
+    <link rel="stylesheet" href="../css/about1.css">
+    <link rel="stylesheet" href="../css/nav real.css">
+    <link rel="stylesheet" href="../css/bodydata.css">
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/file now.css">
+</head>
+<body>
+    <div class="overlay"></div>
+    <nav class="homenav">
+        <div class="scroll-container">
+          
+          <div class="scroll-content">
+              <!-- 在这里添加需要水平滚动的内容 -->
+               
+                  <div class="navtitle"><strong>CZY</strong>|MY PROFILE
+                      <strong style="padding-left: 50%;
+                      font-size: 50px;
+                      font-family:KaiTi;
+                      color:rgb(18, 81, 218);">展翼</strong>
+                      <strong style="
+                      font-size: 50px;
+                      font-family:KaiTi;">任游，</strong>
+                      <strong style="
+                      color:rgb(218, 18, 128);
+                      font-size: 50px;
+                      font-family:KaiTi;">闻蓉</strong>
+                      <strong style="
+                      font-size: 50px;
+                      font-family:KaiTi;">独秀</strong>
+                      <strong style="padding-left: 65%;">c love r</strong></div>
+                  <a href="home real.html" style="padding-left:80px;">HOME</a>
+                  <a href="about.html">ABOUT</a>
+                  <a href="data.html">DATA</a>
+                  <a href="album.html">ALBUM</a>
+                  <a href="bold.html">BOLD</a>
+                  <div class="navanim blog"></div>
+                  <div class="none" ></div>
+              
+              <!-- 更多内容 -->
+          </div>
+        
+        </div> 
+      </nav>
+      <!--<div class="background-container">
+        <div class="background-image" id="bg-image"></div>
+    </div>-->
+    <label class="upload-btn" >
+        🖼️ 选择图片文件
+        <input type="file" id="fileInput" accept="image/*" multiple hidden>
+    </label>
+    
+    <div id="imageContainer" class="image-container"></div>
+
+    <!-- 图片展示框 -->
+    <div id="previewBox">
+        <div class=" drag-handle " ></div>
+        <div class=" close-btn " id="closePreview"></div>
+        <img id="previewImage" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="> <!-- 透明占位图 -->
+        <div class="preview-info">
+            <div id="fileName">未选择图片</div>
+            <div id="fileSize">--</div>
+        </div>
+    </div>
+    <script>"../js/data.js"</script>
+    <script src="../js/larger.js"></script>
+    <script src="../js/file now.js"></script>
+</body>

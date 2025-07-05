@@ -1,0 +1,172 @@
+@charset "utf-8";
+
+.sec{
+    height: 100vh;
+    width:100vw;
+    scroll-snap-align: start;
+}
+.titleimg{
+    background-image: url("../image/title.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-attachment: fixed;
+    transform: 0.5s ease 0s;
+    animation: load 0.5s;
+}
+.title{
+    width: 100vw;
+    padding: 200px;
+    font-size: 100px;
+    font-weight: bolder;
+    color: rgba(49, 70, 87,0.9);
+    padding-top: 250px;
+    padding-left: 100px;
+
+    
+}
+.pt{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 250px;
+    float: left;
+    margin: 150px 0px 0px 105px;
+    background: rgba(219, 235, 241,0.8);
+    box-shadow: 0 0 15px rgb(59, 73, 95);
+    border-radius: 15px;
+    overflow: hidden;
+    scroll-snap-align: start;
+    transition: all 0.5s ease 0s;
+    opacity: 0.8;
+    
+}
+.pt:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    opacity: 1;
+}
+
+.imghid{
+    overflow: hidden;
+}
+.part1 .img{
+    background-image: url("../image/home1.png");
+}
+.part2 .img{
+    background-image: url("../image/home4.png");
+}
+.part3 .img{
+    background-image: url("../image/home3.png");
+}
+.part4 .img{
+    background-image: url("../image/home2.png");
+}
+
+.pt .img{
+    height: 190px;
+    width: 250px;
+    background-size: cover;
+    background-position: 0px -30px;
+    transition: all 0.5s ease 0s;
+    opacity: 0.8;
+}
+
+.pt .img:hover{
+    transform: scale(1.1);
+}
+
+.pt .txt{
+    height: 310px;
+    width: 260px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    
+}
+
+.pt .txt h1{
+    text-align: center;
+    font-size: 2em;
+    color: rgb(28, 44, 68);
+    height: 30px;
+    line-height: 30px;
+}
+
+.pt .txt p{
+    margin-top: -2px;
+    word-wrap: break-word;
+    color: rgb(2, 16, 20);
+}
+@keyframes load{
+    0%{
+        background-position-y: 50px;
+        opacity: 0;
+    }
+    100%{
+        background-position-y: 0px;
+        opacity: 1;
+    }
+}
+audio {
+    
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 10%;
+    z-index: 1000;
+    height: 0.1%;
+}
+audio:hover {
+    height: 5%;
+    width: 15%;
+
+}
+
+#music-controls {
+    display: flex;
+    position: relative;
+    bottom:20%;
+    
+  }
+
+  audio:hover #music-controls {
+    display: flex;
+    position: relative;
+    bottom:20%;
+    
+  }
+
+img {
+    position: absolute; /* 添加此行 */
+    top: 10px; /* 根据需要调整位置 */
+    left: 10px; /* 根据需要调整位置 */
+    width: 100px; /* 根据需要调整大小 */
+    height: 100px; /* 根据需要调整大小 */
+    cursor: pointer;
+    
+}
+#randomMoveImage {
+    position: absolute;
+    /*z-index: -1; */
+}
+.text-overlay {             
+    position: absolute;             
+    top: 50%;             
+    left: 50%;             
+    transform: translate(-50%, -50%);             
+    color: white;             
+    font-size: 2vw;             
+    font-weight: bold;             
+    text-align: center;             
+    background-color: rgba(0, 0, 0, 0.5);             
+    padding: 10px 20px;             
+    border-radius: 5px;
+    opacity: 0;
+         }
+.text-overlay:hover{
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+}
